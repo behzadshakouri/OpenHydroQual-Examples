@@ -1734,6 +1734,40 @@
    "thumb": "examples/reservoir-operation/thumb.svg"
   },
   {
+   "id": "open-channel-routing",
+   "title": "Transient Open-Channel Routing",
+   "track": "hyd",
+   "level": 2,
+   "status": "ready",
+   "summary": "A stage pulse travels through six trapezoidal channel cells, showing how storage and Manning resistance delay and attenuate a shallow-water disturbance.",
+   "plugins": [
+    "open_channel"
+   ],
+   "features": [
+    "Manning routing",
+    "Stage boundary",
+    "Wave translation",
+    "Channel storage"
+   ],
+   "keywords": [
+    "open channel",
+    "channel routing",
+    "transient flow",
+    "stage hydrograph",
+    "flood wave",
+    "manning equation",
+    "trapezoidal channel",
+    "kinematic wave",
+    "diffusive wave",
+    "attenuation",
+    "translation",
+    "travel time",
+    "hydraulic routing",
+    "boundary condition"
+   ],
+   "thumb": "examples/open-channel-routing/thumb.svg"
+  },
+  {
    "id": "city-water-budget",
    "title": "City Water Budget: Supply, Demand, Reuse",
    "track": "mgmt",
