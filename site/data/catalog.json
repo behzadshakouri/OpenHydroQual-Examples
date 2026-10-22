@@ -1531,6 +1531,42 @@
    "thumb": "examples/rooted-soil-transpiration/thumb.svg"
   },
   {
+   "id": "groundwater-plume-capture",
+   "title": "Two-Dimensional Groundwater Plume Capture",
+   "track": "soil",
+   "level": 3,
+   "status": "ready",
+   "summary": "A conservative tracer pulse crosses a 5 \u00d7 5 saturated aquifer grid while a constant-head extraction well intercepts part of the plume. The model couples two-dimensional groundwater flow, advection, dispersion and recovery-well mass capture.",
+   "plugins": [
+    "groundwater"
+   ],
+   "features": [
+    "2D groundwater flow",
+    "Solute transport",
+    "Plume capture",
+    "Extraction well",
+    "Advection-dispersion"
+   ],
+   "keywords": [
+    "groundwater",
+    "aquifer",
+    "two dimensional",
+    "2D",
+    "plume",
+    "contaminant transport",
+    "tracer",
+    "pumping well",
+    "extraction well",
+    "capture zone",
+    "remediation",
+    "advection",
+    "dispersion",
+    "mass balance",
+    "saturated flow"
+   ],
+   "thumb": "examples/groundwater-plume-capture/thumb.svg"
+  },
+  {
    "id": "well-field-network",
    "title": "Well Field and Water Supply Network",
    "track": "soil",
