@@ -1895,6 +1895,41 @@
    "thumb": "examples/lm-calibration/thumb.svg"
   },
   {
+   "id": "design-optimization",
+   "title": "Stormwater Outlet Design Optimization",
+   "track": "calib",
+   "level": 2,
+   "status": "ready",
+   "summary": "A genetic algorithm sizes a detention pond low-flow drain and overflow weir to balance downstream peak flow, maximum pond depth and simple construction-cost proxies during a synthetic design storm.",
+   "plugins": [
+    "Pond_Plugin"
+   ],
+   "features": [
+    "Genetic algorithm",
+    "Design optimization",
+    "Multi-objective scoring",
+    "Detention routing",
+    "Outlet sizing"
+   ],
+   "keywords": [
+    "optimization",
+    "design optimization",
+    "genetic algorithm",
+    "GA",
+    "stormwater",
+    "detention pond",
+    "outlet design",
+    "drain pipe",
+    "weir",
+    "peak flow",
+    "pond depth",
+    "cost",
+    "engineering design",
+    "OHQ-GA"
+   ],
+   "thumb": "examples/design-optimization/thumb.svg"
+  },
+  {
    "id": "ar1-error-model",
    "title": "Autocorrelated Residuals (AR1 Error Model)",
    "track": "calib",
