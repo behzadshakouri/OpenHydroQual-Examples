@@ -843,6 +843,44 @@
    "thumb": "examples/detention-spillways/thumb.svg"
   },
   {
+   "id": "subsurface-vegetated-bed",
+   "title": "Horizontal Subsurface-Flow Vegetated Bed",
+   "track": "storm",
+   "level": 2,
+   "status": "ready",
+   "summary": "A 150 m\u00b2 horizontal subsurface-flow vegetated polishing bed treats a continuous 10 m\u00b3/day inflow and a short 60 m\u00b3/day design surge. Three gravel cells route water below the surface, remove BOD by first-order decay and send excess flow over a capacity-limited bypass.",
+   "plugins": [
+    "open_channel",
+    "svb_subsurface"
+   ],
+   "features": [
+    "Subsurface-flow wetland",
+    "Gravel-bed hydraulics",
+    "Hydraulic retention time",
+    "First-order BOD removal",
+    "Capacity-limited bypass"
+   ],
+   "keywords": [
+    "constructed wetland",
+    "horizontal subsurface flow",
+    "hssf",
+    "vegetated bed",
+    "gravel bed",
+    "treatment wetland",
+    "nature based treatment",
+    "BOD",
+    "first order decay",
+    "hydraulic loading rate",
+    "hydraulic retention time",
+    "Darcy flow",
+    "overflow",
+    "bypass",
+    "stormwater",
+    "wastewater"
+   ],
+   "thumb": "examples/subsurface-vegetated-bed/thumb.svg"
+  },
+  {
    "id": "infiltration-basin",
    "title": "Infiltration Basin",
    "track": "storm",
